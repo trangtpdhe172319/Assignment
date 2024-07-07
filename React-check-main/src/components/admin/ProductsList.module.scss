@@ -1,0 +1,77 @@
+.productsList {
+  margin-top: 20px;
+}
+
+.productImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.actionsContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.actionIcon {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.actionIcon.far.fa-edit {
+  color: #007bff;
+}
+
+.actionIcon.fas.fa-trash {
+  color: #dc3545;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.pagination .btn {
+  margin: 0 5px;
+}
+
+.pagination span {
+  margin: 0 5px;
+}
+
+.pagination select {
+  margin-left: 5px;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchInput {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.addButton {
+  white-space: nowrap;
+}
+
+.table {
+  width: 100%;
+  table-layout: auto;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  white-space: nowrap;
+}
